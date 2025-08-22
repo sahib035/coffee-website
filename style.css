@@ -48,7 +48,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  position: fixed;     /* ✅ hamesha fix karega */
+  position: fixed;   
   top: 0;
   left: 0;
   width: 100%;
@@ -79,7 +79,6 @@ nav ul li a {
   color: white;
   font-family: sans-serif;
   font-size: 16px;
-  /* background-color: #f3970d; */
   padding: 15px;
   border-radius: 29px;
   transition-timing-function: ease-in-out;
@@ -105,12 +104,6 @@ nav ul li a:hover {
 
 /* Hero Section */
 
-/* for typing text CSS */
-
-
-
-
-
 .hero-section {
   min-height: 100vh;
   background-color: #463d3d;
@@ -129,7 +122,6 @@ nav ul li a:hover {
 .hero-details {
   max-width: 50%;
   padding-left: 30px;
-  /* border:  2px solid red; */
   justify-content: center;
 }
 .hero-section .hero-details .title {
@@ -192,9 +184,7 @@ nav ul li a:hover {
 }
 
 .hero-section .hero-image-wrapper img {
-  width: 100%; /* ✅ responsive image */
-  /* height: auto; */
-  /* display: block; */
+  width: 100%; 
 }
 
 /* About Section */
